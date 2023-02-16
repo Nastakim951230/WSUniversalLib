@@ -173,7 +173,7 @@ namespace Test
             double actual = Class1.MaterialFromMarriage(count, witdh, height, poductType, materialType);
             Assert.AreEqual(0,actual);
         }
-
+         
         [TestMethod]
         //Проверка на не существующий тип данных продукции
         public void Non_existintProductDataType()
